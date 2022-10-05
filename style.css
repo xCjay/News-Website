@@ -1,0 +1,95 @@
+body{
+    background-color: #5B85AA;
+    border-color: #372248;
+    border-style: double;
+    border-width: 1vw;
+    height: 98vh;
+}
+
+
+.logo{
+    width: 50vw;
+    height: 10vh;
+    background-color: #F46036;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.logo>p{
+    font-size: 4.5vh;
+}
+
+.section1{
+    background-color: #414770;
+    border-radius: 20px;
+    width: 35vw;
+    height: 20vh;
+
+    margin-top: 5vh;
+    margin-left: 5vw;
+
+    text-align: center;
+}
+
+.section1>p{
+
+}
+
+.s1img>img{
+    border-radius: 20px;
+    height: 20vh;
+    margin-left: 45vw;
+}
+
+.section2{
+    background-color: #414770;
+    border-radius: 20px;
+    width: 35vw;
+    height: 20vh;
+
+    margin-top: 5vh;
+    margin-left: 58vw;
+
+    text-align: center;
+    
+}
+
+.section2>p{
+    
+}
+
+.s2img>img{
+    border-radius: 20px;
+    height: 20vh;
+    margin-left: -100vw;
+}
+
+.section3{
+    background-color: #414770;
+    border-radius: 20px;
+    width: 35vw;
+    height: 20vh;
+
+    margin-top: 5vh;
+    margin-left: 5vw;
+
+    text-align: center;
+}
+
+.section3>p{
+
+    
+}
+
+.s3img{
+    border;
+}
+
+
+.s3img>img{
+    border-radius: 20px;
+    height: 20vh;
+    margin-left: 45vw;
+}
