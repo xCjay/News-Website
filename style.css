@@ -19,77 +19,93 @@ body{
 
 .logo>p{
     font-size: 4.5vh;
+    padding-top: 20px;
 }
 
-.section1{
+
+
+
+.weather {
+text-align: center;
+}
+
+
+nav{
+    display: flex;
+    column-gap: 3vw;
+    justify-content: center;
     background-color: #414770;
-    border-radius: 20px;
-    width: 35vw;
-    height: 20vh;
-
-    margin-top: 5vh;
-    margin-left: 5vw;
-
-    text-align: center;
-}
-
-.section1>p{
+    border-radius: 10px;
+    width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
-.s1img>img{
-    border-radius: 20px;
-    height: 20vh;
-    margin-left: 45vw;
+nav>a{
+    color: #F46036;
+   font-size: 3vh;
+   text-align: center;
+
+   text-decoration: none;
+
 }
 
-.section2{
+
+/* All articles in the index page */
+
+.aindex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    margin-top: 2vh;
+    margin-left: 2vw;
+}
+
+.aindex>article{
+    display: flex;
+    column-gap: 25vw;
+}
+
+.aindex>article>div{
     background-color: #414770;
-    border-radius: 20px;
     width: 35vw;
-    height: 20vh;
-
-    margin-top: 5vh;
-    margin-left: 58vw;
-
+    height: 23vh;
+    border-radius: 1.2vw;
     text-align: center;
-    
+    font-size: 2.5vh;
 }
 
-.section2>p{
-    
+.aindex>article>div>p{
+    font-size: 2vh;
 }
 
-.s2img>img{
-    border-radius: 20px;
-    height: 20vh;
-    margin-left: -100vw;
+.aindex>article>img{
+    width: auto;
+    height: 23vh;
 }
 
-.section3{
+.sevenday{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+
+}
+
+.sevenday>div{
+    justify-content: center;
+    display: flex;
+    column-gap: 200px;
+    text-align: center;
+    font-size: 1.8vh;
+}
+
+.sevenday>div>p{
+    font-size: 200px;
+}
+
+.date{
+    width: 100px;
+    height: 100px;
     background-color: #414770;
-    border-radius: 20px;
-    width: 35vw;
-    height: 20vh;
-
-    margin-top: 5vh;
-    margin-left: 5vw;
-
-    text-align: center;
-}
-
-.section3>p{
-
-    
-}
-
-.s3img{
-    border;
-}
-
-
-.s3img>img{
-    border-radius: 20px;
-    height: 20vh;
-    margin-left: 45vw;
 }
