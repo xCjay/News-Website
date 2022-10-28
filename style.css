@@ -3,7 +3,7 @@ body{
     border-color: #372248;
     border-style: double;
     border-width: 1vw;
-    height: 98vh;
+
 }
 
 
@@ -18,8 +18,7 @@ body{
 }
 
 .logo>p{
-    font-size: 4.5vh;
-    padding-top: 20px;
+    font-size: 5vw;
 }
 
 
@@ -44,7 +43,7 @@ nav{
 
 nav>a{
     color: #F46036;
-   font-size: 3vh;
+   font-size: 3vw;
    text-align: center;
 
    text-decoration: none;
@@ -70,19 +69,19 @@ nav>a{
 .aindex>article>div{
     background-color: #414770;
     width: 35vw;
-    height: 23vh;
+    height: 23vhw;
     border-radius: 1.2vw;
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 2.5vw;
 }
 
 .aindex>article>div>p{
-    font-size: 2vh;
+    font-size: 2vw;
 }
 
 .aindex>article>img{
     width: auto;
-    height: 23vh;
+    height: 23vw;
 }
 
 .sevenday{
@@ -98,14 +97,84 @@ nav>a{
     column-gap: 200px;
     text-align: center;
     font-size: 1.8vh;
+
 }
 
-.sevenday>div>p{
-    font-size: 200px;
-}
 
 .date{
     width: 100px;
     height: 100px;
     background-color: #414770;
+    border-radius: 1vw;
+}
+
+
+
+.ent{
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vw;
+    margin-top: 5vw;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.ent1{
+    width: 45vw;
+    height: 45vw;
+    background-color: #414770;
+    font-size: 3vw;
+    text-align: center;
+}
+
+
+.ent2{
+    width: 45vw;
+    height: 45vw;
+    background-color: #414770;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.ent1>img{
+    width: 85%;
+}
+
+.ent2>img{
+    width: 60%;
+}
+
+.polgrid{
+    display: grid;
+    column-count: 2;
+    grid-template-columns: 35vw 35vw;
+    column-gap: 5vw;
+    row-gap: 5vw;
+    justify-content: center;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+}
+
+.polgrid>article{
+    width: 35vw;
+    height: 35vw;
+    background-color: #414770;
+    font-size: 2.5vw;
+    text-align: center;
+    border-radius: 1vw;
+}
+
+
+.polgrid>article>p{
+        font-size: 2vw;
+}
+
+.warning{
+    font-size: 200%;
+    color: darkred;
+}
+
+aside{
+    background-color: #414770;
+    width: 23vw;
 }
